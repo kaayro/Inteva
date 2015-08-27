@@ -57,7 +57,6 @@ var activity = {
     takeProve: function(){
         //Tomar foto
         navigator.device.capture.captureImage(activity.getProve, activity.captureError, {limit:1});
-        //activity.getProve([{path: "img/inteva3.png"}]);
     },
     captureError: function(err){
         navigator.notification.alert('Código del error: ' + err.code, null, 'Error al tomar la fotografía');
@@ -65,7 +64,7 @@ var activity = {
     getProve: function(p){
         var prove = document.getElementById("prove");
         for(i = 0; i < p.length; i++){
-            prove.attributes.item(0).value = p[i].path;
+            prove.attributes.item(0).value = p[i].fullPath;
         }
         iface.pActivity.classList.remove('active');
         iface.pActivity.classList.add('inactive');

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.igitsoft.intevaApp"
+        version     = "1.0.0"
+        versionCode = "1" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.7.0" />
+
+        <name>IntevaApp</name>
+
+        <description>
+            Aplicacion para trabajadores de Inteva
+        </description>
+
+        <author href="http://igitsoft.com" email="info@igitsoft.com">
+            Jonathan Cordova
+            Carlos Celma
+            Ismael Haro
+        </author>
+        
+        <icon src="img/inteva3.png" />
+        
+        <gap:plugin name="org.apache.cordova.media-capture" />
+        <gap:plugin name="org.apache.cordova.dialogs" />
+    </widget>

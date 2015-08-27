@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>IntevaApp | Presentación</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <section class="page inactive" id="activity">
+            <div class="page-header">
+                <h2>Actividad <small>1</small></h2>
+            </div>
+            <div class="page-content">
+                <ul class="data-list">
+                    <li><i class="fa fa-user"></i><span id="act-trabajador">Jonathan Cordova</span></li>
+                    <li><i class="fa fa-industry"></i><span id="act-estacion">Ensamble de Mecanismos</span></li>
+                    <li><i class="fa fa-calendar"></i><span id="act-tit">26 - Agosto - 2015</span></li>
+                    <li><i class="fa fa-gears"></i><span id="act-tit">Quemacocos A7</span></li>
+                    <li><i class="fa fa-clock-o"></i><span id="act-tit">Primer Turno</span></li>
+                    <li><i class="fa fa-list-ol"></i><span id="act-tit">20</span></li>
+                </ul>
+                <p>Limpieza general de herramentales, mangueras, mesa de trabajo, contenedores de material etc...</p>
+            </div>
+            <div class="page-footer">
+                <button id="done"><i class="fa fa-check"></i> Hecho</button>
+            </div>
+        </section>
+        <section class="page inactive" id="photo">
+            <div class="page-content">
+                <img src="" id="prove">
+            </div>
+            <div class="page-footer">
+                <ul class="multiBtn">
+                    <li><button id="verify"><i class="fa fa-check"></i> Verificar</button></li><li><button id="cancel"><i class="fa fa-times"></i> Cancelar</button></li>
+                </ul>
+            </div>
+        </section>
+        <section class="page active" id="login">
+            <div class="page-content">
+                <img src="img/inteva2.jpg" class="logo">
+                <p class="alert alert-danger">La clave es incorrecta</p>
+                <input type="text" placeholder="Clave" id="pass">
+                <button id="enter">Entrar</button>
+            </div>
+        </section>
+        
+        <section id="waitPage"><div class="loader"></div></section>
+        
+        <script src="phonegap.js"></script>
+        <script src="js/iface.js"></script>
+        <script src="js/data.json"></script>
+    </body>
+</html>

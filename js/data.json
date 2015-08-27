@@ -1,0 +1,42 @@
+data = [
+    {
+        "numero": "1",
+        "resuelto": false,
+        "descripcion": "Limpieza general de herramentales, mangueras, mesa de trabajo, contenedores de material etc…"
+    },
+    {
+        "numero": "2",
+        "resuelto": false,
+        "descripcion": "Verificar que no existan fugas de aire en manqueras, valvulas o pistones."
+    },
+    {
+        "numero": "3",
+        "resuelto": false,
+        "descripcion": "Verificar que lamparas de luz normal no se encuentren fundidas o parpadeando."
+    },
+    {
+        "numero": "4",
+        "resuelto": false,
+        "descripcion": "Verificar funcionamiento de sensores bimanuales y tambien que se encuentren apretados y bien posicionados."
+    },
+    {
+        "numero": "5",
+        "resuelto": false,
+        "descripcion": "Realizar verificación de tapetes, que no se encuentren rotos y que no se encuentren empalmados"
+    },
+    {
+        "numero": "6",
+        "resuelto": false,
+        "descripcion": "Registrar Presion de presostato 87 +/- 7  PSI"
+    },
+    {
+        "numero": "7",
+        "resuelto": false,
+        "descripcion": "Revisar correcto funcionamiento de paro de emergencia"
+    },
+    {
+        "numero": "8",
+        "resuelto": false,
+        "descripcion": "Verificar que clamps se encuentren ajustados y bien posicionados."
+    }
+];
